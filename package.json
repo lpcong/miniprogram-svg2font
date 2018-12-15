@@ -1,0 +1,27 @@
+{
+  "name": "miniprogram-svg2font",
+  "version": "0.0.1",
+  "description": "svg转换成小程序内能使用的字体图标",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index"
+  },
+  "keywords": [
+    "svg",
+    "woff",
+    "font",
+    "miniprogram",
+    "小程序"
+  ],
+  "bin": {
+    "svg2font": "./bin/index.js"
+  },
+  "author": "andypliang",
+  "license": "ISC",
+  "devDependencies": {
+    "svg2ttf": "^4.2.0",
+    "svgicons2svgfont": "^9.0.4",
+    "ttf2woff": "^2.0.1",
+    "ttf2woff2": "^2.0.3"
+  }
+}
