@@ -7,15 +7,19 @@
     "test": "node test/index"
   },
   "keywords": [
-    "svg",
+"bin": {
+    "svg2font": "./bin/index.js"
+  },    "svg",
     "woff",
     "font",
     "miniprogram",
     "小程序"
   ],
-  "bin": {
-    "svg2font": "./bin/index.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpcong/miniprogram-svg2font.git"
   },
+  
   "author": "andypliang",
   "license": "ISC",
   "devDependencies": {

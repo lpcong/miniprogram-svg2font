@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-14 16:59:08 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-15 17:47:20
+ * @Last Modified time: 2018-12-16 00:27:28
  */
 
 const fs = require('fs');
@@ -56,12 +56,12 @@ function initSvgs(src) {
  * svg icon转svg字体
  * @param {object} params
  */
-function svgIconToSvgFont({ fontName, dist, svgList } = params) {
+function svgIconToSvgFont({ fontName, dest, svgList } = params) {
     return new Promise((resolve, reject) => {
         try {
             const fontStream = new SVGIcons2SVGFontStream({ fontName });
-            const svgPath = path.join(dist, `${fontName}.svg`);
-            mkdirp.sync(dist, function (err) {
+            const svgPath = path.join(dest, `${fontName}.svg`);
+            mkdirp.sync(dest, function (err) {
                 if (err) throw new Error(`创建目录异常: ${err}`);
             });
 
@@ -138,13 +138,13 @@ function ttfTowoff2(srcFile) {
     });
 }
 
-module.exports = function ({ src, dist, fontName } = params, cb) {
+module.exports = function ({ src, dest, fontName } = params, cb) {
     const svgList = initSvgs(src);
-    const svgFile = path.join(dist, `${fontName}.svg`);
+    const svgFile = path.join(dest, `${fontName}.svg`);
     svgIconToSvgFont({
         svgList,
         fontName,
-        dist
+        dest
     }).then(() => {
         svgTottf(svgFile);
     }).then(() => {
