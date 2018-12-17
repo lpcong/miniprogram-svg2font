@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-14 16:59:08 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-16 00:27:28
+ * @Last Modified time: 2018-12-17 17:54:12
  */
 
 const fs = require('fs');
@@ -59,7 +59,7 @@ function initSvgs(src) {
 function svgIconToSvgFont({ fontName, dest, svgList } = params) {
     return new Promise((resolve, reject) => {
         try {
-            const fontStream = new SVGIcons2SVGFontStream({ fontName });
+            const fontStream = new SVGIcons2SVGFontStream({ fontName, normalize: true, fontHeight: 1000 });
             const svgPath = path.join(dest, `${fontName}.svg`);
             mkdirp.sync(dest, function (err) {
                 if (err) throw new Error(`创建目录异常: ${err}`);
