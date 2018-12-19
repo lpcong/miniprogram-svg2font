@@ -16,7 +16,5 @@ svg2font({
     fontName: 'testFont', // 字体名称
     src: path.join(__dirname, 'svg'), // svg列表目录
     dist: path.join(__dirname, 'dist') // 生成图标字体文件目录
-})
+});
 ```
-
-## 文档待补充

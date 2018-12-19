@@ -19,7 +19,7 @@ if (argv.v || argv.version) {
     });
 } else {
     console.log([
-        'usage: svgs2fonts [src] [dest] [options]',
+        'usage: svg2font [src] [dest] [options]',
         '',
         'options: -n   --name   iconfont name(default: miniprogram-font)'
     ].join('\n'));
