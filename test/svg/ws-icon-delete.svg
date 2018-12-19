@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2516;enable-background:new    ;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title>icon/表单/输入栏/删除</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_表单_x2F_输入栏_x2F_删除">
+	<g transform="translate(1.000000, 1.000000)">
+		<g id="Oval-2" class="st0">
+			<circle cx="29" cy="29" r="30"/>
+		</g>
+		<g id="Group" transform="translate(7.000000, 7.000000)">
+			<g id="Path-28-Copy-3">
+				<path class="st1" d="M35.8,37.6c-0.4,0-0.9-0.2-1.2-0.5L6.9,9.4c-0.7-0.7-0.7-1.8,0-2.4s1.8-0.7,2.4,0l27.7,27.7
+					c0.7,0.7,0.7,1.8,0,2.4C36.7,37.4,36.3,37.6,35.8,37.6z"/>
+			</g>
+			<g id="Path-28-Copy-4">
+				<path class="st1" d="M8.2,37.6c-0.4,0-0.9-0.2-1.2-0.5c-0.3-0.3-0.5-0.8-0.5-1.2c0-0.4,0.2-0.9,0.5-1.2L34.6,6.9
+					c0.7-0.7,1.8-0.7,2.4,0c0.3,0.3,0.5,0.8,0.5,1.2c0,0.4-0.2,0.9-0.5,1.2L9.4,37.1C9,37.4,8.6,37.6,8.2,37.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

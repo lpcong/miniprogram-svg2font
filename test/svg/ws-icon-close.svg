@@ -1,1 +1,20 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1544846870354" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="732" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css"></style></defs><path d="M963.764706 993.882353a30.027294 30.027294 0 0 1-21.293177-8.824471l-903.529411-903.529411a30.087529 30.087529 0 1 1 42.586353-42.586353l903.529411 903.529411A30.087529 30.087529 0 0 1 963.764706 993.882353z" fill="#9A9A9A" p-id="733"></path><path d="M60.235294 993.882353a30.027294 30.027294 0 0 1-30.117647-30.117647c0-7.710118 2.951529-15.420235 8.824471-21.293177l903.529411-903.529411a30.087529 30.087529 0 1 1 42.586353 42.586353l-903.529411 903.529411A30.027294 30.027294 0 0 1 60.235294 993.882353z" fill="#9A9A9A" p-id="734"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#9A9A9A;}
+</style>
+<title>icon/通用/关闭</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_通用_x2F_关闭">
+	<g id="Path-28-Copy">
+		<path class="st0" d="M58.1,60c-0.5,0-1-0.2-1.3-0.5L0.5,3.2c-0.7-0.7-0.7-1.9,0-2.7s1.9-0.7,2.7,0l56.2,56.2
+			c0.7,0.7,0.7,1.9,0,2.7C59.1,59.8,58.6,60,58.1,60z"/>
+	</g>
+	<g id="Path-28-Copy-2">
+		<path class="st0" d="M1.9,60c-0.5,0-1-0.2-1.3-0.5S0,58.6,0,58.1c0-0.5,0.2-1,0.5-1.3L56.8,0.5c0.7-0.7,1.9-0.7,2.7,0
+			C59.8,0.9,60,1.4,60,1.9s-0.2,1-0.5,1.3L3.2,59.5C2.8,59.8,2.4,60,1.9,60z"/>
+	</g>
+</g>
+</svg>

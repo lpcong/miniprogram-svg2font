@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4E4D4E;}
+</style>
+<title>icon/基础组件/驻地栏/tip_service</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_基础组件_x2F_驻地栏_x2F_tip_x5F_service">
+	<path id="tip_service" class="st0" d="M60,38.7c0,2.5-1.7,4.7-3.9,5.5c0,0.1,0.1,0.2,0.1,0.3c0,7.5-6.1,13.5-13.5,13.5h-6.3
+		c-0.7,1.2-1.9,1.9-3.3,1.9h-9.7c-2.1,0-3.9-1.7-3.9-3.9c0-2.1,1.7-3.9,3.9-3.9h9.7c1.4,0,2.7,0.8,3.3,1.9h6.3
+		c5.3,0,9.7-4.3,9.7-9.7h-5.8V25.2h5.9C51.8,13.3,42,3.8,30,3.8S8.2,13.3,7.7,25.2h5.9v19.4H5.8c-3.2,0-5.8-2.6-5.8-5.8V25.2h3.9
+		C4.4,11.2,15.9,0,30,0s25.6,11.2,26.1,25.2H60V38.7z"/>
+</g>
+</svg>
