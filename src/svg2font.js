@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-14 16:59:08 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-17 17:54:12
+ * @Last Modified time: 2018-12-19 17:29:13
  */
 
 const fs = require('fs');
@@ -148,10 +148,12 @@ module.exports = function ({ src, dest, fontName } = params, cb) {
     }).then(() => {
         svgTottf(svgFile);
     }).then(() => {
-        Promise.all([ttfTowoff(svgFile.replace('.svg', '.woff')), ttfTowoff2(svgFile.replace('.svg', '.woff2'))]).then(() => {
+        const woffPath = svgFile.replace('.svg', '.woff');
+        const woff2Path = svgFile.replace('.svg', '.woff2');
+        Promise.all([ttfTowoff(woffPath), ttfTowoff2(woff2Path)]).then(() => {
             // 操作完成 移除多余svg和ttf文件
             deleteFiles([svgFile, svgFile.replace('.svg', '.ttf')]);
-            cb && cb(unicodes);
+            cb && cb(unicodes, [woffPath, woff2Path]);
         });
     }).catch((err) => {
         throw new Error(`convert error：${err}`);
