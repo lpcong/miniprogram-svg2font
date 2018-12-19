@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-15 14:59:40 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-19 17:40:21
+ * @Last Modified time: 2018-12-19 19:41:04
  */
 
 const fs = require('fs');
@@ -27,11 +27,11 @@ module.exports = function({
                 path.endsWith('.woff2') && (woff2 = path);
             }
             // 生成wxss文件和wxml文件 可根据需要进行调整对应内容
-            let wxss = `@font-face{font-family:${fontName};src:url('${woff2}') format('woff2'),url('${woff}') format('woff');}.ws-icon{font-family:'${fontName}'}`;
+            let wxss = `@font-face {\n\tfont-family: ${fontName};\n\tsrc: url('${woff2}') format('woff2'), url('${woff}') format('woff');\n}\n.ws-icon {\n\tfont-family:'${fontName}'\n}`;
             let wxml = ``;
             for (let u in unicodes) {
-                wxss += `.${u}:before{content:"\\${Number(unicodes[u].replace('&#', '').replace(';', '')).toString(16)}";}`;
-                wxml += `<text class="${u} ws-icon" style="font-size:40rpx;color:gray;font-style:normal;display:inline-block;"></text>`;
+                wxss += `\n.${u}:before {\n\tcontent:"\\${Number(unicodes[u].replace('&#', '').replace(';', '')).toString(16)}";\n}`;
+                wxml += `<text class="${u} ws-icon" style="font-size:40rpx;color:gray;"></text>\n`;
             }
             fs.writeFileSync(path.join(dest, `${fontName}.wxss`), wxss, { encoding: 'utf8' });
             fs.writeFileSync(path.join(dest, `${fontName}.wxml`), wxml, { encoding: 'utf8' });

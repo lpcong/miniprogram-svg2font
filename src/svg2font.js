@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-14 16:59:08 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-19 17:29:13
+ * @Last Modified time: 2018-12-19 19:39:22
  */
 
 const fs = require('fs');
@@ -22,17 +22,17 @@ let ttfBuffers;
  */
 function getIconUnicode(name) {
 	if (!name) return false;
-	let _num = 1;
+	let num = 1;
 	for (let i = 0; i < name.length; i++) {
-		_num *= name.charCodeAt(i);
+		num *= name.charCodeAt(i);
 	}
-	while (_num > 59999) {
-		_num = _num / 10;
+	while (num > 59999) {
+		num = num / 10;
 	}
-	if (_num < 10000) _num += 10000;
-	_num = parseInt(_num);
-    unicodes[name] = '&#' + _num + ';'
-    return [String.fromCharCode(+_num)];
+	if (num < 10000) num += 10000;
+	num = parseInt(num);
+    unicodes[name] = '&#' + num + ';'
+    return [String.fromCharCode(+num)];
 }
 
 /**
