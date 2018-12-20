@@ -2,7 +2,7 @@
  * @Author: andypliang 
  * @Date: 2018-12-18 19:16:28 
  * @Last Modified by: andypliang
- * @Last Modified time: 2018-12-19 18:43:35
+ * @Last Modified time: 2018-12-20 20:33:45
  */
 
 const fs = require('fs');
@@ -44,9 +44,6 @@ module.exports = function(src, publishConfig, cb) {
                 resolve();
             });
         });
-    }
-    if (!publishConfig.remoteDomain) {
-        console.log(`上传配置为空，可在/miniprogram-svg2font/src/libs/consts.js中加入你的上传配置`);
     }
     typeof src === 'string' && (src = [src]);
     for (let s of src) {
