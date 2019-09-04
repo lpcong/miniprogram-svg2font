@@ -4,7 +4,7 @@ const svg2font = require('../index');
 svg2font({
     src: path.join(__dirname, 'svg'),
     dest: path.join(__dirname, 'dest'),
-    fontName: 'testFont',
+    fontName: 'wsFont',
     publishConfig: {  // 文件发布配置
         remoteDomain: '', // 服务器域名，eg：https://cdn.com/
         remotePath: '', // 文件发布远程目录路径，eg: xxx/xxx/
