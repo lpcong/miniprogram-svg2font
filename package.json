@@ -24,7 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "cos-nodejs-sdk-v5": "^2.5.3",
-    "svg2ttf": "^4.2.0",
+    "svg2ttf": "^6.0.3",
     "svgicons2svgfont": "^9.0.4",
     "ttf2woff": "^2.0.1",
     "ttf2woff2": "^2.0.3"
